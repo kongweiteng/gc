@@ -12,7 +12,7 @@ java -XX:+PrintFlagsFinal -version
 ### [ParNew](./doc/parnew.md)
 
 
-### Parallel Scavenge
+### [Parallel Scavenge](./doc/parallelscavenge.md)
 
 ### Serial Old
 
