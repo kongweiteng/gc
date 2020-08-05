@@ -7,9 +7,9 @@ java -XX:+PrintFlagsFinal -version
 
 ![asefZ8.png](https://s1.ax1x.com/2020/08/05/asefZ8.png)
 
-### Serial
+### [Serial](./doc/serial.md)
 
-### ParNew
+### [ParNew](./doc/parnew.md)
 
 
 ### Parallel Scavenge
@@ -18,9 +18,10 @@ java -XX:+PrintFlagsFinal -version
 
 ### Parallel Old
 
-### CMS
+### CMS（Concurrent Mark Sweep）
 
 ### G1（Garbage First）
 
 ### ZGC
+
 
