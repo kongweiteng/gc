@@ -14,7 +14,7 @@ java -XX:+PrintFlagsFinal -version
 
 ### [Parallel Scavenge](./doc/parallelscavenge.md)
 
-### Serial Old
+### [Serial Old](./doc/serialold.md)
 
 ### Parallel Old
 

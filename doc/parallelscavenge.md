@@ -29,6 +29,8 @@ Parallel Scavenge收集器的目标则是达到一个可控制的吞吐量（Thr
 ##### How(怎么做)
 
 ```text
+
+重要参数：
 1、控制最大垃圾收集停顿时间的-XX:MaxGCPauseMillis参数
 MaxGCPauseMillis参数允许的值是一个大于0的毫秒数，收集器将尽力保证内存回收花费的时间不超过设定值。
 不过大家不要异想天开地认为如果把这个参数的值设置得稍小一点就能使得系统的垃圾收集速度变得更快，
@@ -48,6 +50,12 @@ GCTimeRatio参数的值应当是一个大于0小于100的整数，也就是垃�
 等细节参数了，虚拟机会根据当前系统的运行情况收集性能监控信息，动态调整这些参数以提供最合适的停顿时间或最大
 的吞吐量，这种调节方式称为GC自适应的调节策略（GC Ergonomics）。
 
+使用方式：
+-XX:+UseParallelGC强制使用该收集器，打开该收集器后，
+将使用Parallel Scavenge（年轻代）+Serial Old(老年代)的组合进行GC。
+
+-XX:+UseParallelOldGC，打开该收集器后，
+将使用Parallel Scavenge（年轻代）+Parallel Old（老年代）的组合进行GC。
 ```
 
 ### [GC介绍](../README.md)
