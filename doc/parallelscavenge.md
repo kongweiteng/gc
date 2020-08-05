@@ -24,6 +24,7 @@ Parallel Scavenge收集器的目标则是达到一个可控制的吞吐量（Thr
 主要适合在后台运算而不需要太多交互的分析任务。
 
 ```
+![as43uD.png](https://s1.ax1x.com/2020/08/05/as43uD.png)
 
 ##### How(怎么做)
 
