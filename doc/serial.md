@@ -28,3 +28,6 @@ Serial收集器是串行收集器，因为少了多线程切换的开销,
 
 ##### Serial/Serial Old组合收集器运行示意图
 ![asnm7T.png](https://s1.ax1x.com/2020/08/05/asnm7T.png)
+
+
+### [GC介绍](../README.md)

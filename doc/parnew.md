@@ -39,3 +39,6 @@ ParNew收集器在单CPU的环境中绝对不会有比Serial收集器更好的�
 ##### ParNew/Serial Old组合收集器运行示意图
 
 ![asG48f.png](https://s1.ax1x.com/2020/08/05/asG48f.png)
+
+
+### [GC介绍](../README.md)
