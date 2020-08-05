@@ -16,7 +16,7 @@ java -XX:+PrintFlagsFinal -version
 
 ### [Serial Old](./doc/serialold.md)
 
-### Parallel Old
+### [Parallel Old](./doc/parallelold.md)
 
 ### CMS（Concurrent Mark Sweep）
 
