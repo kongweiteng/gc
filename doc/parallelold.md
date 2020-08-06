@@ -14,3 +14,6 @@ Serial Old收集器是串行的进行垃圾回收，而Parallel old收集器是�
 
 
 ```
+
+
+### [GC介绍](../README.md)
