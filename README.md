@@ -1,7 +1,9 @@
-## GC介绍
+## [GC介绍](https://www.cnblogs.com/yy3b2007com/p/10975870.html)
 
-java -XX:+PrintFlagsFinal -version
 
+- 查看jvm默认垃圾收集器 java -XX:+PrintCommandLineFlags -version
+- java -XX:+PrintGCDetails -version
+- java -XX:+PrintFlagsFinal -version
 
 ## 几种经典的垃圾回收器
 
