@@ -1,6 +1,6 @@
 ## [GC介绍]()
 
-###[java堆内存空间](https://www.cnblogs.com/yy3b2007com/p/10975870.html)
+### [java堆内存空间](https://www.cnblogs.com/yy3b2007com/p/10975870.html)
 
 - 查看jvm默认垃圾收集器 java -XX:+PrintCommandLineFlags -version
 - java -XX:+PrintGCDetails -version
