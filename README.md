@@ -27,5 +27,4 @@
 
 ### [ZGC](./doc/zgc.md)
 
-### Shenandoah
 
